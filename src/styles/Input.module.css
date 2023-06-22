@@ -11,7 +11,7 @@
     max-width: 45%;
     width: 100%;
     border-radius: 20px;
-    border: 1px solid #04D361;
+    border: 1px solid #000000;
 }
 
 .ConteinerBtn{
@@ -23,30 +23,31 @@
     width: 20%;
     margin: 0 auto;
     cursor: pointer;
-    border: 0;
     padding: 8px 20px;
     border-radius: 20px;
     background-color: #04d355;
-    color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000000;
+   
 }
 
 .ConteinerBtn input:focus{
     border: 0;
     box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
+    border: 1px solid #ffffff;
 }
 .Conteiner input:focus{
     border: 0;
     box-shadow: 0 0 0 0;
     border: 0 none;
-    outline: none;
+    outline: 0;
+    border: 1px solid #000000;
 }
 
 .Conteiner p{
     padding-top: 20px;
     padding-bottom: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .btnCopia button{
@@ -64,7 +65,7 @@
         max-width: 75%;
         width: 100%;
         border-radius: 20px;
-        border: 1px solid #04D361;
+        border: none
     }
 
     .ConteinerBtn{
@@ -80,7 +81,7 @@
         padding: 8px 0px;
         border-radius: 20px;
         background-color: #04d355;
-        color: white;
+        color: rgb(0, 0, 0);
     }
   }
   

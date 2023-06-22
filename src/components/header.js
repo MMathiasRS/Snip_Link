@@ -11,6 +11,8 @@ return(
            <Link href='/'><h1>Home</h1></Link>   
            <Link href='/sobre'><h1>Sobre</h1></Link> 
            <Link href='/recursos'><h1>Recursos</h1></Link> 
+           <Link href='/politica'><h1>Política de Privacidade e Termos de Uso</h1></Link> 
+          
           
            </div>
       </div>

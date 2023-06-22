@@ -7,6 +7,8 @@ import Main from "@/components/Main";
 import Sobre from "@/components/Sobre";
 import Recursos from "@/components/Recursos";
 import InputSelection from "@/components/Input";
+import Resultados from "@/components/Resultados";
+
 
 export default function Home() {
   const [text, setText] = useState("");
@@ -18,7 +20,8 @@ export default function Home() {
         <InputSelection></InputSelection>
         <Sobre></Sobre>
         <Recursos></Recursos>
-        
+        <Resultados></Resultados>
+    
       </main>
     </>
   );

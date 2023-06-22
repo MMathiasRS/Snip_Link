@@ -9,12 +9,12 @@
 
 .Container h1{
     font-size: 2.5rem;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .Container p{
     padding-top:3% ;
-    color: #4d4d4d;
+    color: #353535;
 }
 .Container span{
     color: #8257E5;
@@ -33,7 +33,7 @@
     }
     .Container h1{
         font-size: 1.5rem;
-        color: white;
+        color: rgb(0, 0, 0);
     }
     .Container p{
         padding-top: 30px;
