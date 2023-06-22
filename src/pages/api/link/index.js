@@ -3,7 +3,7 @@ import db from "@/pages/api/firebase";
 import shortid from "shortid";
 import requestIp from "request-ip";
 
-const rate_Limit_time = 1000 * 60 * 60 * 24 ;
+const rate_Limit_time = 1000 * 60 * 60 * 24;
 const max_requests = 3;
 
 const requestCountMap = new Map();
@@ -17,7 +17,7 @@ export default async function Shoten(req, res) {
 
     const ip = requestIp.getClientIp(req);
     let requestCount = requestCountMap.get(ip) || 0;
-   
+
     if (requestCount >= max_requests) {
       console.log(requestCount);
       return res.status(429).json({
@@ -29,14 +29,19 @@ export default async function Shoten(req, res) {
       if (url !== "") {
         requestCount += 1; // Incrementa a contagem
         requestCountMap.set(ip, requestCount); // Atualiza o mapa com a nova contagem
-       console.log(requestCountMap)
+        console.log(requestCountMap);
         const docRef = await addDoc(collection(db, "Links"), {
           urlOriginal: url,
           urlCurta: urlLink,
           urlData: new Date(),
+          countLink: 0,
         });
 
-        res.status(200).json({ urlCurta: urlLink });
+        const response = {
+          countLink: 0,
+        };
+
+        res.status(200).json(response);
       } else {
         res.status(404).json({ message: "Url inválida" });
       }

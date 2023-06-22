@@ -93,7 +93,7 @@ body {
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
   color: rgb(var(--foreground-rgb));
-  background-color: #E9EBEF;
+  background-color: #121212;
 }
 
 a {
