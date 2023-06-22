@@ -34,13 +34,13 @@
     border: 0;
     box-shadow: 0 0 0 0;
     border: 0 none;
-    outline: none;
+    outline: 0;
 }
 .Conteiner input:focus{
     border: 0;
     box-shadow: 0 0 0 0;
     border: 0 none;
-    outline: 0;
+    outline: none;
 }
 
 .Conteiner p{
