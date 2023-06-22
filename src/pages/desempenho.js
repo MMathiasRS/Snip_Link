@@ -60,12 +60,11 @@ export default function Desempenho() {
             <br></br> ou retira https:// <br></br>
             <br></br> Exemplo: /AqvgnjxCU
           </p>
-          <p></p>
-        
+         
         </div>
 
         <div className={style.Conteiner}>
-          <form onSubmit={handleSubmit} style={{paddingTop:20}}>
+          <form onSubmit={handleSubmit} style={{ paddingTop: 20 }}>
             <input
               type="text"
               placeholder="Colar url aqui..."
@@ -87,7 +86,10 @@ export default function Desempenho() {
         <div>
           <div className={Style.Sobre}>
             <span>
-              <h3 style={{textAlign:'center'}}>Bem-vindo à nossa página dedicada à análise de desempenho do link encurtador!</h3>
+              <h3 style={{ textAlign: "center" }}>
+                Bem-vindo à nossa página dedicada à análise de desempenho do
+                link encurtador!
+              </h3>
             </span>
             <hr></hr>
             <p>
@@ -158,7 +160,8 @@ export default function Desempenho() {
             </p>
 
             <p>
-            Seja bem-vindo à análise de desempenho do link encurtador, onde o sucesso do seu marketing está ao seu alcance!
+              Seja bem-vindo à análise de desempenho do link encurtador, onde o
+              sucesso do seu marketing está ao seu alcance!
             </p>
           </div>
         </div>
