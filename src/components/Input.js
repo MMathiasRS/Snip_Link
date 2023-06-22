@@ -47,6 +47,7 @@ export default function InputSelection() {
             placeholder="Colar url aqui..."
             onChange={(urlText) => SetUrl(urlText.target.value)}
             style={{ touchAction: 'manipulation' }}
+
           />
 
           <div className={style.ConteinerBtn}>
