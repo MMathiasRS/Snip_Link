@@ -1,0 +1,99 @@
+.Container {
+  max-width: 1200px;
+  margin: 30px auto;
+  text-align: center;
+  padding: 0 3%;
+  cursor: pointer;
+}
+.Container h1 {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.Container a {
+  cursor: pointer;
+  display: flex;
+  color: white;
+  text-decoration: none;
+}
+
+.Container span {
+  color: #8256e4;
+}
+
+.Container h1:hover {
+  animation: up 1s infinite alternate;
+}
+
+.ContainerFlex {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.ContainerFlex a {
+  cursor: pointer;
+  padding: 0 3%;
+}
+.ContainerFlex h1{
+  cursor: pointer;
+ 
+  border-bottom: 2px solid rgb(143, 143, 143);
+}
+
+.mob{
+  display: none;
+}
+
+@keyframes slidein {
+  from {
+    border-bottom: 2px solid green;
+  }
+
+  to {
+    border-bottom: 2px solid #8256e4;
+  
+  }
+}
+@keyframes up {
+  0% {
+  }
+  100% {
+    color: #04d355;
+  }
+}
+
+/* Media Query para dispositivos móveis */
+@media only screen and (max-width: 767px) {
+  .Container {
+    margin: 20px auto;
+    padding: 0;
+  }
+  .mob{
+    display: block;
+  }
+  .Container h1 {
+    font-size: 1.2rem;
+  }
+
+  .Container a {
+    display: block;
+    padding: 10px;
+  }
+
+  .ContainerFlex {
+    display: none;
+  }
+  .ContainerFlex a {
+    background-color: 212125;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+}
+
+.footer {
+  color: #4d4d4d;
+  padding: 30px 3%;
+  text-align: center;
+}
+
+

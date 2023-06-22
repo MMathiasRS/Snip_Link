@@ -1,0 +1,38 @@
+.ContainerMain {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.Sobre {
+  margin-top: 10%;
+  margin-bottom: 80px;
+  color: #8F9BA8;
+  padding: 0 3%;
+}
+
+.Sobre h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.Sobre hr {
+  border: 2px solid #212125;
+}
+.Sobre p {
+  margin-top: 50px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .Sobre {
+    margin-top: 30%;
+    margin-bottom: 80px;
+    color: #8F9BA8;
+    padding: 0 3%;
+  }
+  
+}

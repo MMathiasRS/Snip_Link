@@ -1,0 +1,86 @@
+.Conteiner{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Conteiner input{
+    margin: 0 auto 2% auto;
+    padding: 10px 3%;
+    max-width: 45%;
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+}
+
+.ConteinerBtn{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.ConteinerBtn input{
+    width: 20%;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: #04d355;
+    color: white;
+}
+
+.ConteinerBtn input:focus{
+    border: 0;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+.Conteiner input:focus{
+    border: 0;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.Conteiner p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.btnCopia button{
+    background-color:#04D361;
+}
+
+
+
+
+/* Media Query para dispositivos móveis */
+@media only screen and (max-width: 767px) {
+    .Conteiner input{
+        margin: 0 2% 20px 0;
+        padding: 10px 3%;
+        max-width: 75%;
+        width: 100%;
+        border-radius: 20px;
+        border: 0;
+    }
+
+    .ConteinerBtn{
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .ConteinerBtn input{
+        width: 30%;
+        margin: 0 auto;
+        cursor: pointer;
+        border: 0;
+        padding: 8px 0px;
+        border-radius: 20px;
+        background-color: #04d355;
+        color: white;
+    }
+  }
+  

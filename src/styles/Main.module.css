@@ -1,0 +1,46 @@
+.Container{
+    max-width: 1200px;
+    text-align: center;
+    width: 100%;
+    margin: 8% auto 5% auto;
+    padding: 0 3%;
+    
+}
+
+.Container h1{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.Container p{
+    padding-top:3% ;
+    color: #4d4d4d;
+}
+.Container span{
+    color: #8257E5;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .Container{
+        max-width: 1200px;
+        text-align: center;
+        width: 100%;
+        margin: 10% auto ;
+        padding: 0 3%;
+        
+    }
+    .Container h1{
+        font-size: 1.5rem;
+        color: white;
+    }
+    .Container p{
+        padding-top: 30px;
+    }
+
+    .mob{
+        padding-top: 30%;
+    }
+  }
+  
