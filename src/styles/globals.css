@@ -121,9 +121,4 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-@media only screen and (max-width: 767px) {
-  body{
-    color: black;
-    background-color: rgb(163, 163, 163);
-  }
-}
+
