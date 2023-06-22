@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <title>
-            LinkSnip - O Melhor Encurtador de Links 
+            LinkSnip - O Melhor Encurtador de Links | Create Next App
           </title>
           <meta
             name="description"

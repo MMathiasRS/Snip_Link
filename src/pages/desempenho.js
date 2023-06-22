@@ -56,7 +56,7 @@ export default function Desempenho() {
             </span>
           </h1>
           <p>
-            Aviso: Colocar o codigo final do Link depois da '/'<br></br>
+            Aviso: Colocar o codigo final do Link depois da /<br></br>
             <br></br> ou retira https:// <br></br>
             <br></br> Exemplo: /AqvgnjxCU
           </p>
