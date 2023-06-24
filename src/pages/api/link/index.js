@@ -27,8 +27,8 @@ export default async function Shoten(req, res) {
 
     try {
       if (url !== "") {
-        requestCount += 1; // Incrementa a contagem
-        requestCountMap.set(ip, requestCount); // Atualiza o mapa com a nova contagem
+        requestCount += 1; 
+        requestCountMap.set(ip, requestCount); 
         console.log(requestCountMap);
         const docRef = await addDoc(collection(db, "Links"), {
           urlOriginal: url,
@@ -38,6 +38,7 @@ export default async function Shoten(req, res) {
         });
 
         const response = {
+          urlCurta: urlLink,
           countLink: 0,
         };
 

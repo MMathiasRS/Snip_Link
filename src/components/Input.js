@@ -19,6 +19,7 @@ export default function InputSelection() {
       const res = await axios.post("/api/link", {
         url: url,
       });
+      console.log(res.data.urlCurta);
       SetData(res.data.urlCurta);
       setErr(null)
     } catch (error) {
@@ -62,7 +63,7 @@ export default function InputSelection() {
                   data-testid="loader"
                 />
               ) : (
-                err ? err : data
+               data
               )}
             </p>
             <input type="submit" value="Encurtar"></input>
